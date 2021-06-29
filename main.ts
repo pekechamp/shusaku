@@ -8,3 +8,6 @@ input.onButtonPressed(Button.B, function () {
     soundExpression.spring.playUntilDone()
     basic.showString("  S  A  K  U  M  A")
 })
+input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+    soundExpression.yawn.play()
+})
