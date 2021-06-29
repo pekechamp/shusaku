@@ -1,6 +1,10 @@
 input.onButtonPressed(Button.A, function () {
-    music.startMelody(music.builtInMelody(Melodies.Dadadadum), MelodyOptions.Once)
+    basic.showIcon(IconNames.Happy)
+    soundExpression.giggle.playUntilDone()
+    basic.showString("Hello!")
 })
-basic.forever(function () {
-	
+input.onButtonPressed(Button.B, function () {
+    basic.showIcon(IconNames.Heart)
+    soundExpression.spring.playUntilDone()
+    basic.showString("SAKUMA")
 })
