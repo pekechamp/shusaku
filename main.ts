@@ -6,5 +6,5 @@ input.onButtonPressed(Button.A, function () {
 input.onButtonPressed(Button.B, function () {
     basic.showIcon(IconNames.Heart)
     soundExpression.spring.playUntilDone()
-    basic.showString("SAKUMA")
+    basic.showString("  S  A  K  U  M  A")
 })
