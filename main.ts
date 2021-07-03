@@ -1,6 +1,15 @@
 input.onPinPressed(TouchPin.P0, function () {
 	
 })
+input.onSound(DetectedSound.Quiet, function () {
+    images.createBigImage(`
+        # . . . # # . . . #
+        . # . . # . # . # .
+        # # # # . # # # # #
+        # # . . . . . # . #
+        # # # . . . # # # #
+        `).showImage(0)
+})
 input.onLogoEvent(TouchButtonEvent.LongPressed, function () {
 	
 })
