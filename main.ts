@@ -8,7 +8,7 @@ input.onSound(DetectedSound.Quiet, function () {
         # # # # . # # # # #
         # # . . . . . # . #
         # # # . . . # # # #
-        `).showImage(0)
+        `).showImage(1)
 })
 input.onLogoEvent(TouchButtonEvent.LongPressed, function () {
 	
